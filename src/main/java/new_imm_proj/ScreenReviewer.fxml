@@ -26,12 +26,12 @@
       <Accordion layoutX="355.0" layoutY="75.0">
         <panes>
           <TitledPane animated="false" prefHeight="236.0" prefWidth="202.0" text="Dependent 1" />
-          <TitledPane animated="false" text="Dependent 2">
+          <TitledPane animated="false" prefHeight="196.0" prefWidth="202.0" text="Dependent 2">
             <content>
               <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
             </content>
           </TitledPane>
-          <TitledPane animated="false" prefHeight="10.0" prefWidth="202.0" text="Dependent 3" />
+          <TitledPane animated="false" prefHeight="234.0" prefWidth="202.0" text="Dependent 3" />
         </panes>
       </Accordion>
    </children>

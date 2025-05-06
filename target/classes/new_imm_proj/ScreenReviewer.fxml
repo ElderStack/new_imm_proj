@@ -25,7 +25,7 @@
       <TextField id="address" editable="false" layoutX="121.0" layoutY="136.0" prefHeight="26.0" prefWidth="166.0" text="308 Negra Arroyo Lane" />
       <Accordion layoutX="355.0" layoutY="75.0">
         <panes>
-          <TitledPane animated="false" text="Dependent 1" />
+          <TitledPane animated="false" prefHeight="236.0" prefWidth="202.0" text="Dependent 1" />
           <TitledPane animated="false" text="Dependent 2">
             <content>
               <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />

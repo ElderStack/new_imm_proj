@@ -18,9 +18,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 
 public class ScreenReviewer extends Application {
-    /**
-     * Push test
-     */
+
     @Override
     public void start(Stage primaryStage) {
         

@@ -5,7 +5,7 @@ FROM openjdk:11
 WORKDIR /app
 
 # Copy the compiled Java application into the container
-COPY src\main\java\new_imm_proj\App.class /app
+COPY target/classes/new_imm_proj/App.class /app
 
 # Run the Java application when the container starts
-CMD ["java", "HelloWorld"]
+CMD ["java", "new_imm_proj.App"]

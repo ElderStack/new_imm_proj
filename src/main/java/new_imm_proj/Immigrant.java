@@ -8,6 +8,7 @@ import java.util.Locale;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Models the user submitting data through the form.
@@ -218,7 +219,7 @@ public class Immigrant {
      * Returns Immigrant dependents
      * @return ArrayList<Dependent>
      */
-    public ArrayList<Dependent> getDependents(){
+    public List<Dependent> getDependents(){
         return this.dependents;
     }
 
@@ -245,7 +246,7 @@ public class Immigrant {
             this.DoB = formatter.parse(Date);
         }
         catch (ParseException e){
-            System.err.println("Invalid Date");
+            System.out.println("Invalid Date");
         }
     }
 
